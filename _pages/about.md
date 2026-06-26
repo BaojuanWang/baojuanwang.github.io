@@ -6,7 +6,7 @@ subtitle: Second-year PhD student at Drexel University
 
 profile:
   align: right
-  image: prof_pic.jpg
+  image:
   image_circular: false
   more_info: >
     <p>Baojuan Wang</p>
