@@ -2,17 +2,17 @@
 layout: about
 title: about
 permalink: /
-subtitle: TODO_一句话副标题，比如：PhD student at XXX University
+subtitle: Personal academic homepage
 
 profile:
   align: right
   image: prof_pic.jpg
   image_circular: false # crops the image to make it circular
   more_info: >
-    <p>TODO_你的院系/实验室</p>
-    <p>TODO_你的学校</p>
+    <p>Baojuan Wang</p>
+    <p>GitHub: <a href="https://github.com/BaojuanWang">BaojuanWang</a></p>
 
-selected_papers: true # 在首页展示标了 selected: true 的论文
+selected_papers: false # turn this on after adding real publications
 social: true # 页面底部展示社交图标（读取 _data/socials.yml）
 
 announcements:
@@ -26,6 +26,6 @@ latest_posts:
   limit: 3
 ---
 
-TODO_在这里写你的个人简介(2-3句话就够):
-你是谁、在哪个学校/实验室读PhD、研究方向是什么。
-照片记得改名叫 prof_pic.jpg，放进 assets/img/ 文件夹替换掉原来的示例照片。
+Welcome! I am Baojuan Wang. This website collects my academic profile, projects, publications, and professional updates.
+
+More details will be added here as the site is updated.
