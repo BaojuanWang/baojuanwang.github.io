@@ -1,18 +1,33 @@
 cv:
   name: Baojuan Wang
-  label: ""
+  label: Second-year PhD student
   email: ""
-  location: ""
+  location: Drexel University
   image: ""
-  summary: Personal academic profile for Baojuan Wang.
+  summary: Second-year PhD student at Drexel University with research interests in human factors in cybersecurity.
 
   social_networks:
     - network: GitHub
       username: BaojuanWang
+    - network: Google Scholar
+      username: GTa0UdgAAAAJ
+    - network: LinkedIn
+      username: baojuan-wang-1470a1333
+    - network: X
+      username: Joonana123
 
   sections:
-    Education: []
-    Experience: []
+    Education:
+      - institution: Drexel University
+        area: Human factors in cybersecurity
+        degree: PhD
+        start_date: ""
+        end_date: present
+        highlights:
+          - Second-year PhD student
+    Research Interests:
+      - name: Human factors in cybersecurity
+        details: Security and privacy, human-centered security, and user decision-making around security technologies.
     Publications: []
     Projects: []
     Skills: []
