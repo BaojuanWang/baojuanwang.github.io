@@ -1,7 +1,5 @@
-# this file contains the social media links and usernames of the author
-# the socials will be displayed in the order they are defined here
-# for more information, please refer to the documentation of jekyll-socials plugin: https://github.com/george-gca/jekyll-socials
-
 github_username: BaojuanWang
+scholar_userid: GTa0UdgAAAAJ
+x_username: Joonana123
+linkedin_username: baojuan-wang-1470a1333
 rss_icon: false
-# cv_pdf: /assets/pdf/your_cv.pdf  # 等你有 CV 的 PDF 文件了，把文件放进 assets/pdf/ 文件夹，再取消这行注释
