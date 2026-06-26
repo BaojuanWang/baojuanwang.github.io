@@ -238,6 +238,21 @@ exclude:
   - gems/
   - migrations/
   - vendor
+  # ↓↓↓ 下面是隐藏掉的示例内容（不是你的真实内容，全部隐藏） ↓↓↓
+  - _posts/ # 示例博客文章
+  - _pages/blog.md # 博客入口页
+  - _projects/ # 9个示例项目
+  - _pages/projects.md # 项目入口页
+  - _books/ # 示例书籍
+  - _pages/books.md # 书架入口页
+  - _teachings/ # 示例教学条目
+  - _pages/teaching.md # 教学入口页
+  - _pages/repositories.md # GitHub仓库统计页（默认显示torvalds等示例账号）
+  - _pages/dropdown.md # 导航栏下拉菜单（只链接到上面被删的blog和books，一起隐藏）
+  - _pages/cv.md # 等你有真实简历内容了再把这行删掉、把CV页放回来
+  - _news/announcement_1.md # 3条示例新闻
+  - _news/announcement_2.md
+  - _news/announcement_3.md
 keep_files:
   - CNAME
   - .nojekyll
