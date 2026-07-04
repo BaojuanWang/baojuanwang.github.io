@@ -5,8 +5,7 @@
 title: blank # the website title (if blank, full name will be used instead)
 first_name: Baojuan
 last_name: Wang
-contact_note: >
-  Please connect with me through GitHub for now.
+
 description: > # the ">" symbol means to ignore newlines until "footer_text:"
   Personal academic homepage for Baojuan Wang.
 footer_text: >
