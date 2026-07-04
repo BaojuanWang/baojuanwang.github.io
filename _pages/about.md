@@ -6,8 +6,6 @@ subtitle: Ph.D. Student in Computer Science, <a href="https://drexel.edu/cci/">D
 
 profile:
   align: right
-  image: prof_pic.jpg
-  image_circular: false
   more_info: >
     <p>Philadelphia, PA, USA</p>
 
