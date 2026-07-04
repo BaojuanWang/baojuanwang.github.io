@@ -20,12 +20,5 @@ I am a Ph.D. student in Computer Science at Drexel University, where I am a memb
 My research focuses on human-centered aspects of computer security, particularly how users perceive, interpret, and respond to security risks while interacting with security tools and AI-based systems. I study the cognitive and behavioral factors that influence security decision-making, user trust, and interaction with security technologies. My goal is to inform the design of adaptive, user-aware security approaches that account for individual differences and real-world user needs.
 
 
-## Education
-
-**Ph.D. in Computer Science**, Drexel University, USA — *2024 – Present*
 
 <br>
-
-<small>
-**Travel Grants:** SOUPS 2025 · ACM CODASPY 2025 · IEEE S&P (Oakland) 2025
-</small>
