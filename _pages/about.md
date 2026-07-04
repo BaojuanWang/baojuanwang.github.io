@@ -2,32 +2,30 @@
 layout: about
 title: about
 permalink: /
-subtitle: Second-year PhD student at Drexel University
+subtitle: Ph.D. Student in Computer Science, <a href="https://drexel.edu/cci/">Drexel University</a>
 
 profile:
   align: right
-  image:
+  image: prof_pic.jpg
   image_circular: false
   more_info: >
-    <p>Baojuan Wang</p>
-    <p>Second-year PhD student</p>
-    <p>Drexel University</p>
-    <p>Human factors in cybersecurity</p>
+    <p>Philadelphia, PA, USA</p>
 
-selected_papers: false
+selected_papers: true
 social: true
-
-announcements:
-  enabled: false
-  scrollable: true
-  limit: 5
-
-latest_posts:
-  enabled: false
-  scrollable: true
-  limit: 3
 ---
 
-I am Baojuan Wang, a second-year PhD student at Drexel University. My research interests center on human factors in cybersecurity, including how people understand, use, and make decisions around security and privacy technologies.
+I am a Ph.D. student in Computer Science at Drexel University, where I am a member of the [Security and Privacy Analytics Lab (SePAL)](https://www.sepalab.com/), advised by [Dr. Zhibo Sun](https://zhibosun.com/).
 
-You can find more about my work and updates through [Google Scholar](https://scholar.google.com/citations?user=GTa0UdgAAAAJ&hl=en), [LinkedIn](https://www.linkedin.com/in/baojuan-wang-1470a1333/), [X](https://x.com/Joonana123), and [GitHub](https://github.com/BaojuanWang).
+My research focuses on human-centered aspects of computer security, particularly how users perceive, interpret, and respond to security risks while interacting with security tools and AI-based systems. I study the cognitive and behavioral factors that influence security decision-making, user trust, and interaction with security technologies. My goal is to inform the design of adaptive, user-aware security approaches that account for individual differences and real-world user needs.
+
+
+## Education
+
+**Ph.D. in Computer Science**, Drexel University, USA — *2024 – Present*
+
+<br>
+
+<small>
+**Travel Grants:** SOUPS 2025 · ACM CODASPY 2025 · IEEE S&P (Oakland) 2025
+</small>
