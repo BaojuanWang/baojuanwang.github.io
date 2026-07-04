@@ -2,7 +2,7 @@
 layout: about
 title: about
 permalink: /
-subtitle: Ph.D. Student in Computer Science, <a href="https://drexel.edu/cci/">Drexel University</a>
+
 
 social: true
 ---
