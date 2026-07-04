@@ -9,7 +9,7 @@ profile:
   more_info: >
     <p>Philadelphia, PA, USA</p>
 
-selected_papers: true
+
 social: true
 ---
 
