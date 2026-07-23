@@ -5,3 +5,4 @@ footer_text: >
 search_enabled: false
 enable_darkmode: false
 enable_progressbar: false
+navbar_fixed: false
