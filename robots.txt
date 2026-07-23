@@ -1,4 +1,4 @@
 User-agent: *
 Disallow:
 
-Sitemap: https://baojuanwang.github.io/baojuanwang/sitemap.xml
+Sitemap: https://baojuanwang.github.io/sitemap.xml
