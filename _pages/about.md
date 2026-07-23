@@ -11,6 +11,10 @@ My research focuses on human-centered aspects of computer security, particularly
 
 ## Publications
 
+**“Learning Less While Asking More: How LLM-Based Assistance Shapes Vulnerability Learning.”**  
+<u><em>Baojuan Wang</em></u>, Yifan Yao, Yue Zhang, and Zhibo Sun.  
+<em>Accepted to the ACM Conference on Computer and Communications Security (CCS), 2026.</em>
+
 **“The Imitation Game: Using Large Language Models as Chatbots to Combat Chat-Based Cybercrimes.”**  
 Yifan Yao, <u><em>Baojuan Wang</em></u>, Jinhao Duan, Kaidi Xu, ChuanKai Guo, Zhibo Eric Sun, and Yue Zhang.  
 <em>IEEE/ACM International Symposium on Quality of Service (IWQoS), 2026.</em>
