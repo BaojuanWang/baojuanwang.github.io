@@ -4,3 +4,4 @@ footer_text: >
   Powered by Jekyll with the al-folio theme. Hosted by GitHub Pages.
 search_enabled: false
 enable_darkmode: false
+enable_progressbar: false
