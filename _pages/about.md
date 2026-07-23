@@ -5,7 +5,7 @@ permalink: /
 social: true
 ---
 
-I am a second-year Ph.D. student in Computer Science at Drexel University, where I am a member of the [Security and Privacy Analytics Lab (SePAL)](https://www.sepalab.com/), advised by [Dr. Zhibo Sun](https://zhibosun.com/) and co-advised by [Dr. Yue Zhang](https://yue.zyueinfosec.com/). Before joining Drexel, I earned my M.S. in CS from Chongqing University of Technology, advised by [Dr. Wanping Liu](https://scholar.google.com/citations?user=qysA0NoAAAAJ&hl=en). I majored in Statistics and earned a second bachelor’s degree in CS from Yantai University, advised by Qinghua Li.
+I am a second-year Ph.D. student in Computer Science at Drexel University, where I am a member of the [Security and Privacy Analytics Lab (SePAL)](https://www.sepalab.com/), advised by [Dr. Zhibo Sun](https://zhibosun.com/) and co-advised by [Dr. Yue Zhang](https://yue.zyueinfosec.com/). Before joining Drexel, I earned my M.S. in Computer Science from Chongqing University of Technology, advised by [Dr. Wanping Liu](https://scholar.google.com/citations?user=qysA0NoAAAAJ&hl=en). I majored in Statistics and earned a second bachelor’s degree in Computer Science from Yantai University, advised by Qinghua Li.
 
 My research focuses on human-centered aspects of computer security, particularly how users perceive, interpret, and respond to security risks while interacting with security tools and AI-based systems. I study the cognitive and behavioral factors that influence security decision-making, user trust, and interaction with security technologies. My goal is to inform the design of adaptive, user-aware security approaches that account for individual differences and real-world user needs.
 
