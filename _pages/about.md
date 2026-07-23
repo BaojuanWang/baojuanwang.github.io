@@ -12,9 +12,9 @@ My research focuses on human-centered aspects of computer security, particularly
 
 ## Education
 
-- **Drexel University** — Ph.D. in Computer Science, 2024–present
-- **Chongqing University of Technology** — M.S. in Computer Science and Technology, 2021–2024; advised by Dr. Wanping Liu
-- **Yantai University** — B.S. in Statistics and dual degree in Computer Science and Technology, 2016–2020; advised by Qinghua Li
+- **Drexel University** — Ph.D. in Computer Science
+- **Chongqing University of Technology** — M.S. in Computer Science and Technology; advised by Dr. Wanping Liu
+- **Yantai University** — B.S. in Statistics, with a second bachelor's degree in Computer Science and Technology; advised by Qinghua Li
 
 ## Awards
 
