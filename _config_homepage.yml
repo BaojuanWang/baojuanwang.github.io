@@ -1,5 +1,7 @@
 url: https://baojuanwang.github.io
 baseurl: ""
+first_name: Baojuan
+last_name: "Wang (王宝娟)"
 footer_text: >
   Powered by Jekyll with the al-folio theme. Hosted by GitHub Pages.
 search_enabled: false
