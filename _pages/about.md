@@ -5,7 +5,7 @@ permalink: /
 social: true
 ---
 
-I am a second-year Ph.D. student in Computer Science at [Drexel University](https://drexel.edu/), where I am a member of [SePAL](https://www.sepalab.com/) and am advised by [Dr. Zhibo Eric Sun](https://zhibosun.com/) and co-advised by [Dr. Yue Zhang](https://yue.zyueinfosec.com/). Before joining Drexel, I earned my M.S. in Computer Science from [Chongqing University of Technology](https://www.cqut.edu.cn/), advised by [Dr. Wanping Liu](https://scholar.google.com/citations?user=qysA0NoAAAAJ&hl=en). I earned B.S. degrees in Statistics and Computer Science from [Yantai University](https://www.ytu.edu.cn/).
+I am a Ph.D. student in Computer Science at [Drexel University](https://drexel.edu/), where I am a member of [SePAL](https://www.sepalab.com/) and am advised by [Dr. Zhibo Eric Sun](https://zhibosun.com/) and co-advised by [Dr. Yue Zhang](https://yue.zyueinfosec.com/). Before joining Drexel, I earned my M.S. in Computer Science from [Chongqing University of Technology](https://www.cqut.edu.cn/), advised by [Dr. Wanping Liu](https://scholar.google.com/citations?user=qysA0NoAAAAJ&hl=en). I earned B.S. degrees in Statistics and Computer Science from [Yantai University](https://www.ytu.edu.cn/).
 
 My research focuses on human-centered security and privacy, particularly on how people perceive, interpret, and act on security information. I study how interactions with security systems and AI assistance shape users’ judgment, trust, learning, and behavior, and how LLMs are changing security practice by influencing decision-making, introducing new risks, and creating new opportunities for security and privacy support.
 
