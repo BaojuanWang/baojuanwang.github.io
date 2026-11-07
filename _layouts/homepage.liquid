@@ -376,6 +376,25 @@ body {font-family:Lato,"Avenir Next",Arial,sans-serif;font-size:15.5px;line-heig
 .name-cn{font-size:24px}
 @media(max-width:1030px){.work-title{font-size:23px}}
 @media(max-width:720px){body{font-size:15px}.hero-title{font-size:43px}.section-title{font-size:29px}.work-title{font-size:22px}.work-desc{font-size:14.5px}.bio{font-size:15px}}
+
+/* Body text contrast refinements; retain existing typefaces and layout. */
+:root{--ink:#111c17;--body:#1d2720;--sub:#2b3a30;--link:#123c47}
+body,.bio,.work-desc{color:#1d2720}
+.position,.author-line,.paper-list .year,.paper-list .pdetail,
+.info-row .info-date,.info-row .info-note,.award-row span:last-child{color:#26382e}
+.navigation a,.quick-links a,.linkline a,.linkline .text-open,
+.paper-list .pdetail a{color:#123d48}
+.work-art figcaption{color:#304338}
+#research .work:first-of-type .work-art figcaption{color:#294b67}
+#research .work--reverse .work-art figcaption{color:#5f3f2d}
+#research .work:first-of-type .publication-year{color:#224d76}
+#research .work--reverse .publication-year{color:#773d2d}
+.footer,.mitigation-inline,.mitigation-note{color:#314238}
+.dialog-head p:last-child,.dialog-foot{color:#253b48}
+#detail-ccs .dialog-foot{color:#263d52}
+#detail-iwqos .dialog-foot{color:#4d3528}
+.vs-empty,.vs-history-empty,.vs-suggestions p{color:#344b60}
+
 </style>
 </head>
 <body>
@@ -448,7 +467,7 @@ body {font-family:Lato,"Avenir Next",Arial,sans-serif;font-size:15.5px;line-heig
 </div>
 </div>
 </div>
-<div class="dialog-foot">AI-assisted static preview based on the paper, simplified to show selected features. Questions and replies are preset; typing and live API access are not available.</div>
+<div class="dialog-foot">This is a simplified, AI-assisted preview based on our paper. Since it is not connected to a live API, we included a few example questions and responses to demonstrate selected features. These examples are for illustration only, not actual study conversations.</div>
 </dialog>
 
 <footer class="footer"><div class="wrapper">© Baojuan Wang</div></footer>
