@@ -396,32 +396,71 @@ body,.bio,.work-desc{color:#1d2720}
 .vs-empty,.vs-history-empty,.vs-suggestions p{color:#344b60}
 
 
-/* Selected research: text-forward layout without decorative illustrations. */
+
+/* Compact academic homepage, with a balanced text-first research layout. */
+.navbar{min-height:66px}
+.main{padding-top:47px;padding-bottom:34px}
+.hero{padding-bottom:35px}
+.hero .name-cn{margin:10px 0 17px}
+.hero .position{margin:0 0 13px}
+.hero .bio p{margin-bottom:10px;line-height:1.68}
+.research{padding-top:30px}
+#research>.section-title{margin-bottom:8px}
 #research .work,
-#research .work + .work {
-  display: block;
-  max-width: 870px;
-  width: 100%;
-  padding: 30px 0 35px;
-  border-bottom: 1px solid var(--line);
+#research .work + .work{
+  display:block;
+  width:100%;
+  max-width:none;
+  padding:19px 0 23px;
+  border-bottom:1px solid var(--line);
 }
-#research .work + .work {
-  padding-top: 36px;
-  border-bottom: 0;
+#research .work + .work{padding-top:24px;border-bottom:0}
+#research .work-content{
+  display:grid;
+  grid-template-columns:minmax(0,.94fr) minmax(0,1.06fr);
+  gap:clamp(30px,5vw,64px);
+  align-items:start;
+  grid-column:auto;
+  grid-row:auto;
 }
-#research .work-content {
-  grid-column: auto;
-  grid-row: auto;
-}
-#research .work-title,
-#research .work-desc {
-  max-width: 820px;
-}
-@media (max-width: 720px) {
+#research .work-meta,#research .work-summary{min-width:0}
+#research .publication-year{margin:0 0 7px}
+#research .work-title{max-width:none;font-size:24px;line-height:1.34;margin:0 0 10px}
+#research .author-line{margin:0;line-height:1.65}
+#research .work-desc{max-width:none;margin:1px 0 11px;line-height:1.65}
+#research .mitigation-inline{margin:0 0 11px;line-height:1.6}
+#research .linkline{margin-top:2px}
+.publications{padding-top:21px;margin-top:4px}
+.publications .section-title,
+.additional-section .section-title,
+.awards .section-title{margin-bottom:12px}
+.paper-list li{padding:9px 0 12px}
+.additional-section,.awards{padding-top:21px;margin-top:15px}
+.info-list,.award-list{gap:7px}
+.info-row{padding-bottom:7px}
+.award-row{padding-bottom:7px}
+.footer{padding:15px 0 19px}
+@media(max-width:840px){
+  #research .work-content{grid-template-columns:1fr;gap:12px}
   #research .work,
-  #research .work + .work {
-    padding: 23px 0 28px;
-  }
+  #research .work + .work{padding:19px 0 21px}
+  #research .work-title{font-size:23px}
+}
+@media(max-width:720px){
+  .navbar{min-height:0}
+  .main{padding-top:27px;padding-bottom:25px}
+  .hero{gap:15px;padding-bottom:25px}
+  .hero .name-cn{margin:8px 0 13px}
+  .hero .position{margin-bottom:12px}
+  .hero .bio p{margin-bottom:9px}
+  .research{padding-top:24px}
+  #research>.section-title{margin-bottom:6px}
+  #research .work,
+  #research .work + .work{padding:16px 0 19px}
+  #research .work-title{font-size:22px}
+  #research .work-desc{line-height:1.65}
+  .publications{padding-top:17px;margin-top:3px}
+  .additional-section,.awards{padding-top:17px;margin-top:12px}
 }
 </style>
 </head>
@@ -433,8 +472,8 @@ body,.bio,.work-desc{color:#1d2720}
 <div class="bio"><p>I am a Ph.D. student in Computer Science at <a href="https://drexel.edu/">Drexel University</a>, where I am a member of <a href="https://www.sepalab.com/">SePAL</a> and am advised by <a href="https://zhibosun.com/">Dr. Zhibo Eric Sun</a> and co-advised by <a href="https://yue.zyueinfosec.com/">Dr. Yue Zhang</a>. Before joining Drexel, I earned my M.S. in Computer Science from <a href="https://www.cqut.edu.cn/">Chongqing University of Technology</a>, advised by <a href="https://scholar.google.com/citations?user=qysA0NoAAAAJ&amp;hl=en">Dr. Wanping Liu</a>. I earned B.S. degrees in Statistics and Computer Science from <a href="https://www.ytu.edu.cn/">Yantai University</a>.</p><p>I study how people understand security information and decide what to do with it. I am also interested in how LLMs affect learning about software vulnerabilities and how they can be used to investigate online scams.</p></div>
 </section>
 <section class="research" id="research"><h2 class="section-title">Research</h2>
-<article class="work"><div class="work-content"><p class="publication-year">ACM CCS 2026</p><h3 class="work-title">Learning Less While Asking More: How LLM-Based Assistance Shapes Vulnerability Learning</h3><p class="author-line"><strong>Baojuan Wang</strong>, Yifan Yao, Yue Zhang, Zhibo Eric Sun</p><p class="work-desc">We compared LLM chat and web search for learning about software vulnerabilities (N=70). Web search was associated with larger learning gains, especially for understanding causes, runtime behavior, and security consequences, even though participants rated the LLM more helpful and clearer.</p><p class="mitigation-inline">A small follow-up pilot explored VulnScaffold, a structured chat interface.</p><div class="linkline"><a href="https://dl.acm.org/doi/10.1145/3830454.3846814" rel="noopener" target="_blank">Paper</a><button class="text-open subtle-link" data-modal="ccs" type="button">VulnScaffold preview <span aria-hidden="true">↗</span></button></div></div></article>
-<article class="work work--reverse"><div class="work-content"><p class="publication-year">IEEE/ACM IWQoS 2026</p><h3 class="work-title">The Imitation Game: Using Large Language Models to Disrupt Chinese Chat-Based Cybercrime</h3><p class="author-line">Yifan Yao, <strong>Baojuan Wang</strong>, Jinhao Duan, Kaidi Xu, Chuankai Guo, Zhibo Eric Sun, Yue Zhang</p><p class="work-desc">We wanted to see whether an LLM could hold a natural conversation with accounts promoting illicit services. Using LURE, we engaged 53 providers found across 98 Telegram groups. Thirty conversations continued naturally and revealed payment information, sometimes shared as images. Researchers reviewed each message before it was sent.</p><div class="linkline"><a href="https://dl.acm.org/doi/10.1109/IWQoS70441.2026.11661137" rel="noopener" target="_blank">Paper</a></div></div></article>
+<article class="work"><div class="work-content"><div class="work-meta"><p class="publication-year">ACM CCS 2026</p><h3 class="work-title">Learning Less While Asking More: How LLM-Based Assistance Shapes Vulnerability Learning</h3><p class="author-line"><strong>Baojuan Wang</strong>, Yifan Yao, Yue Zhang, Zhibo Eric Sun</p></div><div class="work-summary"><p class="work-desc">We compared LLM chat and web search for learning about software vulnerabilities (N=70). Web search was associated with larger learning gains, especially for understanding causes, runtime behavior, and security consequences, even though participants rated the LLM more helpful and clearer.</p><p class="mitigation-inline">A small follow-up pilot explored VulnScaffold, a structured chat interface.</p><div class="linkline"><a href="https://dl.acm.org/doi/10.1145/3830454.3846814" rel="noopener" target="_blank">Paper</a><button class="text-open subtle-link" data-modal="ccs" type="button">VulnScaffold preview <span aria-hidden="true">↗</span></button></div></div></div></article>
+<article class="work work--reverse"><div class="work-content"><div class="work-meta"><p class="publication-year">IEEE/ACM IWQoS 2026</p><h3 class="work-title">The Imitation Game: Using Large Language Models to Disrupt Chinese Chat-Based Cybercrime</h3><p class="author-line">Yifan Yao, <strong>Baojuan Wang</strong>, Jinhao Duan, Kaidi Xu, Chuankai Guo, Zhibo Eric Sun, Yue Zhang</p></div><div class="work-summary"><p class="work-desc">We wanted to see whether an LLM could hold a natural conversation with accounts promoting illicit services. Using LURE, we engaged 53 providers found across 98 Telegram groups. Thirty conversations continued naturally and revealed payment information, sometimes shared as images. Researchers reviewed each message before it was sent.</p><div class="linkline"><a href="https://dl.acm.org/doi/10.1109/IWQoS70441.2026.11661137" rel="noopener" target="_blank">Paper</a></div></div></div></article>
 </section>
 <section class="publications" id="publications"><h2 class="section-title">Publications</h2><ol class="paper-list"><li><span class="year">2026</span><div><p class="ptitle">Learning Less While Asking More: How LLM-Based Assistance Shapes Vulnerability Learning</p><p class="pdetail"><strong>Baojuan Wang</strong>, Yifan Yao, Yue Zhang, Zhibo Eric Sun. <em>ACM CCS 2026.</em> <a href="https://dl.acm.org/doi/10.1145/3830454.3846814" rel="noopener" target="_blank">Paper</a></p></div></li><li><span class="year">2026</span><div><p class="ptitle">The Imitation Game: Using Large Language Models to Disrupt Chinese Chat-Based Cybercrime</p><p class="pdetail">Yifan Yao, <strong>Baojuan Wang</strong>, Jinhao Duan, Kaidi Xu, Chuankai Guo, Zhibo Eric Sun, Yue Zhang. <em>IEEE/ACM IWQoS 2026.</em> <a href="https://dl.acm.org/doi/10.1109/IWQoS70441.2026.11661137" rel="noopener" target="_blank">Paper</a></p></div></li><li><span class="year">2024</span><div><p class="ptitle">CFOA: Exploring Transferable Adversarial Examples by Content Feature Optimization with Attention Guidance</p><p class="pdetail">Wanping Liu, <strong>Baojuan Wang</strong>, Dong Huang, Haolan Luo, Ling Lu. <em>Computers &amp; Security, 142, 103882.</em> <a href="https://www.sciencedirect.com/science/article/pii/S0167404824001834" rel="noopener" target="_blank">Paper</a></p></div></li></ol></section>
 <section class="additional-section" id="experience"><h2 class="section-title">Academic Experience</h2>
